@@ -26,7 +26,7 @@ let count = 1;
 let countMoins = count--;
 console.log(span[countMoins]);
 
-console.log(span.length - 1);
+console.log(span.length);
 let translation = 0;
 let animSpan = setInterval(() => {
 
@@ -35,15 +35,12 @@ let animSpan = setInterval(() => {
     if (count === 0) {
         precedent = span[span.length - 1]
     }
-    element.classList.remove('color-gray')//Et retire le fond gris
+    element.classList.remove('color-gray')//Retire le fond gris
     element.classList.add('color-blue')//ajoute un fond bleu
 
-    divImage2.style.transform = `translateX(${translation}%)`
-    divImage2.classList.add('transition')
-    translation -= 12.5;
-    count++;//passe à l'element suivant
-    precedent.classList.remove('color-blue');
-    precedent.classList.add('color-gray');
+    count++;
+    precedent.classList.remove('color-blue');//retire un fond bleu
+    precedent.classList.add('color-gray');//Replace le fond gris
     if ((translation === -75)) {//si le count est egal a la taille du tableau alors il est reinitialiser
         count = 0;
         // divImage2.style.transform = `translateX(0%)`;
@@ -51,7 +48,11 @@ let animSpan = setInterval(() => {
         divImage2.style.transform = `translateX(0%)`
         translation = 0;
     }
-
+    else {
+        translation -= 12.5;
+        divImage2.style.transform = `translateX(${translation}%)`
+        divImage2.classList.add('transition')
+    }
 
 }, 2340);
 
