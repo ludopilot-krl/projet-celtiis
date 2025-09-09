@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  <link rel="stylesheet" href="../celtiis/celtiis.css" />
+   <link rel="stylesheet" href="../celtiis/celtiis.css" />
     <!-- <link rel="stylesheet" href="style.css" /> -->
-  <link rel="stylesheet" href="../celtiis/fontawesome-free-7.0.0-web/css/all.min.css" />
+    <link rel="stylesheet" href="../celtiis/fontawesome-free-7.0.0-web/css/all.min.css" />
   </head>
-  <div>
+  
     <nav>
-  <img src="../celtiis/celtiis-logo-rounded.svg" alt="" class="logo-celtiis" />
+      <img src="../celtiis/celtiis-logo-rounded.svg" alt="" class="logo-celtiis" />
       <img src="s" alt="">
       <input type="text" id="search" class="hide" />
 
@@ -111,10 +111,11 @@
         <img src="../celtiis/simple/celtiis-business-1.webp" alt="image de juju" />
       </div>
     </div>
-
-    <div class="services">
-      <div>
-  <img src="../celtiis/image-svg/celtiis-hiw-1.svg" alt="" />
+<!--////////////////////// voici le debut des services/////////////////////////////////////// -->
+  <div class="services">
+    <div class="services-box1">
+      <div class="services1">
+        <img src="../celtiis/image-svg/celtiis-hiw-1.svg" alt="" id="img-services" />
         <h2>Mobile</h2>
         <p>
           Appels à petits prix <br />
@@ -122,7 +123,7 @@
         </p>
       </div>
       <div>
-  <img src="../celtiis/image-svg/celtiis-hiw-2.svg" alt="" />
+        <img src="../celtiis/image-svg/celtiis-hiw-2.svg" alt="" id="img-services" />
         <h2>Connexion haut débit</h2>
         <p>
           Le haut débit vous ouvre <br />
@@ -130,37 +131,43 @@
         </p>
       </div>
       <div>
-  <img src="../celtiis/image-svg/celtiis-hiw-3.svg" alt="" />
+        <img src="../celtiis/image-svg/celtiis-hiw-3.svg" alt="" id="img-services"/>
         <h2>Mobile Money</h2>
         <p>Vos transactions financières <br />instantanées et sécurisées</p>
       </div>
-      <div>
-        <h1>
-          Des services innovants pour vous faciliter la vie,<br />
-          téléchargez <span>MyCeltiis cash</span> et profitez des bons plans
-          <br />
-          du moment.
-        </h1>
-        <p>Application disponible sur Playstore et Appstsore</p>
-      </div>
-      <button>
-        <!-- Boutton Play Store -->
+      <!-- le texte et les boutons pour les telechargements playstore et appstore -->
+    </div>
+    <div>
+
+      <h1 class="div-telecharger-my-celtiis">
+        Des services innovants pour vous faciliter la vie,
+        téléchargez <span>MyCeltiis cash</span> et profitez des bons plans
+        <br />
+        du moment.
+      </h1>
+      <p>Application disponible sur Playstore et Appstsore</p>
+      <button class="download playstore">
+        <!-- buton playstore -->
       </button>
-      <button>
-        <!-- Boutton App Store -->
+      <button class="download appstore">
+        <!-- button appstore. A ne pas supprimer -->
       </button>
     </div>
-    <div class="prendre-sim">
-  <img src="../celtiis/simple/celtiis-sim-pic.png" alt="" />
+</div>
+  <!-- ///////////////////////////////////////////////////////////////////////////////// -->
+  <div class="prendre-sim">
+    <div class="div-prendre-la-sim">
+      <img src="../celtiis/simple/celtiis-sim-pic.png" alt="" /><!-- image de la fille qui prend la sim////////////////////////////// -->
+
+    </div>
+
       <section class="section-prendre-sim">
-        <div>
+        <div class="precommandez-votre-sim1">
           <h2>Pas encore de Sim?</h2>
           <h2 style="color: rgb(9, 161, 60)">Précommandez-là</h2>
         </div>
-        <div>
-          <p>Vous avez la possibilité de commander votre sim depuis</p>
-          <p>n’importe quel endroit en remplissant le formulaire.</p>
-          <p>Ne perdez plus du temps !</p>
+        <div class="precommandez-votre-sim2">
+          <p>Vous avez la possibilité de commander votre sim depuis n’importe quel endroit en remplissant le formulaire. <br> <br> Ne perdez plus du temps !</p>
           <button>
             Précommander votre Sim <i class="fa-solid fa-arrow-right-long"></i>
           </button>
