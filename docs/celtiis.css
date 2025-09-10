@@ -249,7 +249,7 @@ hr{
 
  .download{
     width: 15%;
-    background-image: url(../celtiis/simple/telecharger-google-play1.png);
+    background-image: url(../docs/simple/telecharger-google-play1.png);
    background-size: cover;
     background-repeat: no-repeat;
     height: 60px;
@@ -258,7 +258,7 @@ hr{
     cursor: pointer;
 }
  .appstore{
-    background-image: url(../celtiis/simple/appstore.png);
+    background-image: url(../docs/simple/appstore.png);
 }
 /*********************Fin du services******************/
 
@@ -350,7 +350,7 @@ hr{
     width: 12%;
     height: 80%;
     margin: 0 0.5% ;
-    background-image: url('../celtiis/simple/celtiis-business-1.webp');
+    background-image: url('../docs/simple/celtiis-business-1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 20%;
@@ -361,27 +361,27 @@ hr{
 
 
 .div-image2 div+div{
-    background-image: url('../celtiis/simple/celtiis-slider-04.webp');
+    background-image: url('../docs/simple/celtiis-slider-04.webp');
     background-size: cover;
 
 }
 .div-image2 div+div+div{
-    background-image: url('../celtiis/simple/celtiis-illiminet-slider-01.webp');
+    background-image: url('../docs/simple/celtiis-illiminet-slider-01.webp');
 }
 .div-image2 div+div+div+div{
-    background-image: url('../celtiis/simple/ftth-campaign_1.webp');
+    background-image: url('../docs/simple/ftth-campaign_1.webp');
 }
 .div-image2 div+div+div+div+div{
-    background-image: url('../celtiis/simple/celtiis-slider-03.webp');
+    background-image: url('../docs/simple/celtiis-slider-03.webp');
 }
 .div-image2 div+div+div+div+div+div{
-    background-image: url('../celtiis/simple/ftth-campaign_1.webp');
+    background-image: url('../docs/simple/ftth-campaign_1.webp');
 }
 .div-image2 div+div+div+div+div+div+div{
-    background-image: url('../celtiis/simple/celtiis-business-1.webp');
+    background-image: url('../docs/simple/celtiis-business-1.webp');
 }
 .div-image2 div+div+div+div+div+div+div+div{
-    background-image: url('../celtiis/simple/celtiis-slider-04.webp');
+    background-image: url('../docs/simple/celtiis-slider-04.webp');
 }
 
 .div-image2 .slider-div{
